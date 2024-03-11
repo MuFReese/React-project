@@ -1,0 +1,32 @@
+.headerContact{
+  display: flex;
+  justify-content: space-between;
+  padding: 15px;
+  align-items: center;
+  background: url(../../../image/fon.jpeg) 0 0/5px 100px repeat;
+  color: rgb(167, 255, 172);
+  font-size: 24px;
+  letter-spacing: 2px;
+}
+
+
+.headerContact-textAndTelefon{
+  display: flex;
+  align-items: center;
+}
+
+.headerContact-text{
+  margin-right: 20px;
+}
+.headerContact-email span:hover{
+  transition-duration: 0.5s;
+  color: red;
+}
+
+.headerContact-telefon{
+  font-size: 30px;
+}
+.headerContact-telefon h3:hover{
+  transition-duration: 0.5s;
+  color: red;
+}

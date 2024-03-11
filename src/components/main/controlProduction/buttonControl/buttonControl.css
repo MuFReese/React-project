@@ -1,0 +1,11 @@
+.buttonControlProduction{
+  font-size: 30px;
+  font-weight: 600;
+  color: rgb(80, 80, 80);
+  margin: 20px 0px;
+  text-align: left;
+}
+.buttonControlProduction:hover{
+  transition-duration: 0.5s;
+  color:red
+}

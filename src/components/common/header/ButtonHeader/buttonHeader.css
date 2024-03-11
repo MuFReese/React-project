@@ -1,0 +1,18 @@
+.buttonHead{
+  font-size: 24px;
+  letter-spacing: 1px;
+  padding: 12px;
+  min-height: 100px;
+  background-color: white;
+}
+
+.buttonHead:hover{
+  transition-duration: 0.5s;
+  background-color: red;
+  color: white;
+}
+
+.active{
+  background-color: red;
+  color: white;
+}

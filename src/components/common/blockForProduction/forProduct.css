@@ -1,0 +1,30 @@
+.forProduct{
+  margin: 100px 50px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.forProduct-imem-1{
+  position: relative;
+  width: 250px;
+  height: 300px;
+  background: url('../../../image/9.jpeg') 0 0/250px 300px no-repeat;
+}
+.forProduct-imem-2{
+  position: relative;
+  width: 250px;
+  height: 300px;
+  background: url('../../../image/10.jpeg') 0 0/250px 300px no-repeat;
+}
+.forProduct-imem-3{
+  position: relative;
+  width: 250px;
+  height: 300px;
+  background: url('../../../image/11.jpeg') 0 0/250px 300px no-repeat;
+}
+.forProduct-imem-4{
+  position: relative;
+  width: 250px;
+  height: 300px;
+  background: url('../../../image/12.jpeg') 0 0/250px 300px no-repeat;
+}

@@ -1,0 +1,178 @@
+
+.getData{
+  position: relative;
+}
+
+.getData-image-size{
+  width: 100%;
+  height: 500px;
+}
+
+.buttonRight{
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  top: 40%;
+  right: 0;
+  background-color: darkred;
+}
+
+.buttonLeft{
+  width: 45px;
+  height: 50px;
+  padding-left: 15px;
+  position: absolute;
+  top: 40%;
+  left: 0;
+  background-color: darkred;
+}
+
+.buttonRight-iconRigth{
+  width: 30px;
+  height: 30px;
+  border-top: 5px solid white;
+  border-right: 5px solid white;
+  transform: rotate(45deg);
+}
+
+.buttonRigth-iconLeft{
+  width: 30px;
+  height: 30px;
+  border-top: 5px solid white;
+  border-right: 5px solid white;
+  transform: rotate(-135deg);
+}
+
+.buttonRigth-iconLeft:hover{
+  transition-duration: 0.4s;
+  border-top: 5px solid black;
+  border-right: 5px solid black;
+}
+
+.buttonRight-iconRigth:hover{
+  transition-duration: 0.4s;
+  border-top: 5px solid black;
+  border-right: 5px solid black;
+}
+
+.blockTrapezoid{
+  position: absolute;
+  top: 0px;
+  right: 0;
+  height: 500px;
+  width: 500px;
+  background-color: black;
+  clip-path: polygon(200px 0, 100% 0, 100% 100%, 0 100%);
+  opacity: 0;
+  animation: slideUpBlockOne 1s forwards;
+}
+.blockTrapezoid-effect{
+  position: absolute;
+  top: 0px;
+  right: 0;
+  height: 500px;
+  width: 500px;
+  background-color: black;
+  clip-path: polygon(200px 0, 100% 0, 100% 100%, 0 100%);
+  opacity: 0;
+  animation: slideUpBlockTwo 1s forwards;
+}
+
+.getData-text{
+  color: rgb(253, 150, 150);
+  position: absolute;
+  height: 500px;
+  width: 300px;
+  top: 0px;
+  right: 100px;
+  animation: slideUpOne 2s forwards;
+}
+
+.getData-text-effect{
+  color: rgb(253, 150, 150);
+  position: absolute;
+  height: 500px;
+  width: 300px;
+  top: 0px;
+  right: 100px;
+}
+
+.getData-text-label{
+  font-size: 30px;
+  text-align: right;
+  margin: 20% 0px;
+  animation: slideUpNameOne 1s forwards;
+  z-index: 2;
+}
+
+.getData-text-label-effect{
+  font-size: 30px;
+  text-align: right;
+  margin: 20% 0px;
+  animation: slideUpNameTwo 1s forwards;
+  z-index: 2;
+}
+
+.getData-text-textForLabel{
+  text-indent: 30px;
+  line-height: 25px;
+  text-align: right;
+  animation: slideUpTextOne 1.3s forwards;
+  z-index: 2;
+}
+
+.getData-text-textForLabel-effect{
+  text-indent: 30px;
+  line-height: 25px;
+  text-align: right;
+  animation: slideUpTextTwo 1.3s forwards;
+  z-index: 2;
+}
+
+@keyframes slideUpBlockOne {
+  100% {
+    opacity: 0.7;
+  }
+}
+
+@keyframes slideUpBlockTwo {
+  100% {
+    opacity: 0.7;
+  }
+}
+
+@keyframes slideUpNameOne {
+  0% {
+    transform: translateY(100%);
+  }
+  100% {
+    transform: translateY(0%);
+  }
+}
+
+@keyframes slideUpNameTwo {
+  0% {
+    transform: translateY(100%);
+  }
+  100% {
+    transform: translateY(0%);
+  }
+}
+
+@keyframes slideUpTextOne {
+  0% {
+    transform: translateY(50%);
+  }
+  100% {
+    transform: translateY(0%);
+  }
+}
+
+@keyframes slideUpTextTwo {
+  0% {
+    transform: translateY(50%);
+  }
+  100% {
+    transform: translateY(0%);
+  }
+}

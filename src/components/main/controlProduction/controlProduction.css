@@ -1,0 +1,15 @@
+.controlProduction{
+  margin: 100px 50px;
+  height: 500px;
+}
+.controlProduction-title{
+  font-size: 30px;
+  letter-spacing: 3px;
+  margin-bottom: 40px;
+}
+.controlProduction-list{
+  width: 100%;
+  height: 400px;
+  display: flex;
+  flex-flow: column wrap;
+}

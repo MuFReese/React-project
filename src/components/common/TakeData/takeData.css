@@ -1,0 +1,26 @@
+.componentCompany{
+  width: 550px;
+}
+.componentCompany-title{
+  font-size: 30px;
+  text-align: center;
+  margin-bottom: 20px;
+  color: red;
+}
+.componentCompany-title:hover{
+  text-decoration: underline;
+}
+
+.componentCompany-description{
+  text-indent: 20px;
+  line-height: 25px;
+}
+.componentCompany-description:hover{
+  text-shadow: 0px 0px 15px black;
+}
+
+@media (max-width: 1200px) {
+  .componentCompany{
+    width: 400px;
+  }
+}
