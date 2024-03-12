@@ -2,7 +2,7 @@ import { useState } from 'react'
 import './buttonProduct.css'
 
 
-export default function ButtonProduct({children, onClick, ...props}) {
+export default function ButtonProduct({children, onClick}) {
   const [mous, getMous] = useState(false)
 
   function mouseOver() {
@@ -14,7 +14,6 @@ export default function ButtonProduct({children, onClick, ...props}) {
     
   return(
     <button
-    {...props}
     onClick={onClick}
     className='buttonProduct'
     id='mouse'

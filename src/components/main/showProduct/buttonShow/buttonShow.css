@@ -1,0 +1,17 @@
+.buttonProductShow{
+  color: red;
+  font-size: 20px;
+  font-weight: 700;
+  min-width: 200px;
+  text-align: center;
+  background: 0;
+  text-align: left;
+  transition-duration: 0.5s;
+  padding: 10px;
+}
+
+.activeButton{
+  transition-duration: 0.5s;
+  background-color: white;
+  color: black;
+}

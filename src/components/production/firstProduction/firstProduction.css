@@ -1,0 +1,78 @@
+.productionList{
+  display: flex;
+  justify-content: space-between;
+  padding: 40px 20px;
+}
+
+.productionList-imageAndText{
+  width: 35%;
+  margin-right: 30px;
+}
+
+.productionList-imageAndText-image img{
+  width: 100%;
+}
+
+.productionList-imageAndText-title{
+  margin: 30px 0px;
+  font-size: 30px;
+  font-weight: 700;
+  letter-spacing: 3px;
+  color: red;
+}
+.productionList-imageAndText-title:hover{
+  text-decoration: underline;
+}
+
+.productionList-imageAndText-text{
+  text-indent: 20px;
+  font-size: 20px;
+  line-height: 30px;
+  color: rgb(99, 99, 99);
+}
+
+.productionList-feature{
+  width: 65%;
+}
+
+.productionList-feature-title{
+  font-size: 30px;
+  margin-bottom: 30px;
+  transition-duration: 0.5s;
+}
+.productionList-feature-title:hover{
+  transition-duration: 0.5s;
+  text-shadow: 0px 0px 5px black;
+}
+
+.productionList-feature-appointment{
+  display: flex;
+  margin-bottom: 50px;
+}
+
+.productionList-feature-appointment-title{
+  margin-right: 30px;
+  text-align: center;
+  padding: 20px 40px 20px 20px;
+  font-size: 20px;
+  background-color: rgb(63, 63, 63);
+  height: 60px;
+  clip-path: polygon(50% 0, 75% 0, 100% 50%, 75% 100%, 0 100%, 0 50%, 0 0);
+  color: rgb(209, 209, 209);
+}
+
+.productionList-feature-appointment-titleAndtext-title{
+  font-size: 25px;
+  margin-bottom: 20px;
+  color: red;
+}
+.productionList-feature-appointment-titleAndtext-title:hover{
+  text-decoration: underline;
+}
+
+.productionList-feature-appointment-titleAndtext-text{
+  font-size: 20px;
+  text-indent: 20px;
+  line-height: 30px;
+  color: rgb(56, 56, 56);
+}

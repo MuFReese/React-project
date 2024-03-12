@@ -1,0 +1,82 @@
+.contact-title{
+  margin: 100px 0px 60px 50px;
+  font-size: 40px;
+  font-weight: 700;
+  letter-spacing: 3px;
+}
+
+.contact{
+  display: flex;
+}
+
+.contact-data{
+  margin: 30px 50px;
+  width: 30%;
+}
+
+.contact-data-adress{
+  font-size: 30px;
+  color: rgb(71, 71, 71);
+  line-height: 40px;
+  text-align: left;
+  margin-bottom: 20px;
+}
+
+.contact-data h4{
+  font-size: 25px;
+  color: rgb(95, 78, 78);
+  margin: 20px;
+}
+
+.contact-data-telefon li{
+  margin: 0px 0px 10px 40px;
+  color: red;
+  font-size: 20px;
+}
+
+.contact-data-email{
+  margin-left: 40px;
+  font-size: 22px;
+  color: red;
+}
+
+.contact-form-title{
+  font-size: 35px;
+  font-weight: 700;
+  margin-bottom: 30px;
+}
+
+.contact-form-input{
+  display: block;
+  border: 3px solid black;
+  border-radius: 10px;
+  padding: 10px;
+  margin-bottom: 10px;
+  font-size: 20px;
+  transition: all 0.5s;
+  width: 400px;
+}
+
+.contact-form-input:focus{
+  transition: all 0.5s;
+  border: 3px solid green;
+}
+
+.contact-form-button{
+  border: 3px solid black;
+  border-radius: 10px;
+  margin: 10px 0px 0px 30%;
+  font-size: 25px;
+  padding: 10px 20px;
+  transition-duration: 0.5s;
+}
+
+.contact-form-button:hover{
+  transition-duration: 0.5s;
+  background-color: green;
+  color: rgb(197, 197, 197);
+}
+
+.contact-wrapForm{
+  margin-left: 20%;
+}

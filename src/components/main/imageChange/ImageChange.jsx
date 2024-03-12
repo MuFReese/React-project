@@ -25,14 +25,6 @@ export default function ImageChange() {
     return () => clearInterval(time);
   })
 
-  // function whatClick(side) {
-  //   if (side === 'right') {
-  //     return buttonClickedRigth
-  //   } else {
-  //     return buttonClickedLeft
-  //   }
-  // }
-
   function buttonClickedRigth() {
     if (clear) {
       getClear(!clear)
