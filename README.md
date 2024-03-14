@@ -6,14 +6,5 @@
   <p>Все переходы были реализованы при помощи хука useState</p>
   <p>Стоит отметить, что была проведена работа над визуализацией проекта</p>
   <h2>Видео проекта</h2>
-  <video src="./video/videoProject.mp4"></video>
+  <p>Перейдите в папку видео, после в файл видео, после чего скачайте видео, нажав на кнопку View raw</p>
 </body>
-Title: Video title
-URL: YouTube.com/
-Description: One sentence
-Product: e.x. Projects
-Versions: e.x. fpt, GHES > 3.2
-Date added: YYYY-MM-DD
-Location: /where/in/docs
-Transcript: ./video/videoProject.mp4
-
