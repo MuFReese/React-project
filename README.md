@@ -6,6 +6,6 @@
   <p>Все переходы были реализованы при помощи хука useState</p>
   <p>Стоит отметить, что была проведена работа над визуализацией проекта</p>
   <h2>Видео проекта</h2>
-  <div><video src="./video/videoProject.mp4"></video></div>
+  <video src="./video/videoProject.mp4"></video>
 </body>
 
