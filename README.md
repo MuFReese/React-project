@@ -8,4 +8,12 @@
   <h2>Видео проекта</h2>
   <video src="./video/videoProject.mp4"></video>
 </body>
+Title: Video title
+URL: YouTube.com/
+Description: One sentence
+Product: e.x. Projects
+Versions: e.x. fpt, GHES > 3.2
+Date added: YYYY-MM-DD
+Location: /where/in/docs
+Transcript: ./video/videoProject.mp4
 
